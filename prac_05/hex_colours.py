@@ -2,9 +2,9 @@
 Hex colours in a dictionary
 """
 
-HEX_COLOUR_CODES = {"AliceBlue": "#f0f8ff", "AntiqueWhite": "#faebd7", "AntiqueWhite1": "#ffefdb",
-                    "AntiqueWhite2": "#eedfcc", "AntiqueWhite3": "#cdc0b0", "AntiqueWhite4": "#8b8378",
-                    "Aquamarine1": "#7fffd4", "coral": "#ff7f50", "coral3": "#cd5b45", "gray": "#bebebe"}
+HEX_COLOUR_CODES = {"aliceblue": "#f0f8ff", "antiquewhite": "#faebd7", "antiquewhite1": "#ffefdb",
+                    "antiquewhite2": "#eedfcc", "antiquewhite3": "#cdc0b0", "antiquewhite4": "#8b8378",
+                    "aquamarine1": "#7fffd4", "coral": "#ff7f50", "coral3": "#cd5b45", "gray": "#bebebe"}
 
 colour = input("Enter a colour: ")
 while colour != "":
