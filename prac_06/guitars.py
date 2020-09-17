@@ -16,5 +16,5 @@ while name != "":
 print("These are my guitars:")
 for i, guitar in enumerate(guitars, 1):
     vintage_string = " (Vintage)" if guitar.is_vintage() else ""
-    print("Guitar {}: {:} ({}), worth ${:10,.2f}{}".format(i + 1, guitar.name, guitar.year, guitar.cost,
+    print("Guitar {}: {:} ({}), worth ${:10,.2f}{}".format(i, guitar.name, guitar.year, guitar.cost,
                                                            vintage_string))
